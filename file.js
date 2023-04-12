@@ -114,7 +114,7 @@ function playerGame(playerMove){
 
   document.querySelector('.js-result').innerHTML=result;
 
-  document.querySelector('.js-pickups').innerHTML=`You <img src="/${playerMove}-emoji.png" alt="" class="move-css"> - <img src="/${computerMove}-emoji.png" alt="" class="move-css"> Computer`;
+  document.querySelector('.js-pickups').innerHTML=`You <img src="${playerMove}-emoji.png" alt="" class="move-css"> - <img src="${computerMove}-emoji.png" alt="" class="move-css"> Computer`;
 
   // document.getElementById('res').innerHTML=result;
   
