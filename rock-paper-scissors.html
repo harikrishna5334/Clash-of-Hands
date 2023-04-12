@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+  
+  <section class="container">
+
+    <div>
+      <h3 class="title">Rock Paper <span class="break">Scissors</span></h3>
+    </div>
+
+    <!--Buttons-->
+    <div class="buttons">
+      <button class="move-button" onclick="rock()"><img src="rock-emoji.png" class="move-icon" alt=""></button>
+      <button class="move-button" onclick="paper()"><img src="paper-emoji.png" class="move-icon" alt=""></button>
+      <button class="move-button" onclick="scissor()"><img src="scissors-emoji.png" class="move-icon"  alt=""></button>
+    </div>
+    <!--Output-->
+
+    <div>
+      <p class="js-result final-out"></p>
+    </div>
+
+    <div>
+      <p class="js-pickups"></p>
+    </div>
+
+    <div>
+      <p class="js-scoreBoard score"></p>
+    </div>
+
+    <!--Reset Button-->
+    <div>
+      <button onclick="reset()" class="reset-btn">Reset score</button>
+    </div>
+    
+  </section>
+  <!--Linking to JavaScriptFile-->
+  <script src="rps.js"></script>
+  
+</body>
+</html>
